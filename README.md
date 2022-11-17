@@ -1,9 +1,7 @@
 # files_send-and-receive
 
-server（受信）側
-
-gcc –o sample_server sample_server_report2.c　でコンパイル
-
+server（受信）側<br>
+gcc –o sample_server sample_server_report2.c　でコンパイル<br>
 ./sample_server　で実行するとPORT NUMBERが表示される。
 
 
