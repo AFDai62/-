@@ -1,4 +1,4 @@
-# files_send-and-receive
+# UDP_packet_send
 
 server（受信）側<br>
 gcc –o sample_server sample_server_report2.c　でコンパイル<br>
