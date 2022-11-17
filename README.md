@@ -2,12 +2,14 @@
 
 server（受信）側<br>
 gcc –o sample_server sample_server_report2.c　でコンパイル<br>
-./sample_server　で実行するとPORT NUMBERが表示される。
+./sample_server　で実行するとPORT NUMBERが表示される。<br>
+client側からファイル送信が始まると、受け取ったパケットのデータ部のバイト数と順序番号が表示され、<br>
+ACKを返すことが表示される。
 
 
 client（送信）側<br>
 gcc –o sample_client sample_client＿report2.c　でコンパイル<br>
-./sample_client <IPaddress> <PORT NUMBER> で実行 （<>は入力しない）<br>
+./sample_client "IPaddress" "PORT NUMBER" で実行 （"は入力しない）<br>
 1つのPCで自分自身と通信する場合、IPadressは127.0.0.1<br>
 PORT NUMBERは5001のときは入力しなくてもよい<br>
   
